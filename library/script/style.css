@@ -1,0 +1,119 @@
+/* 
+    Document   : style
+    Created on : 2014-10-02, 20:48:17
+    Author     : Piotr
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.clear{
+    clear:both;
+}
+body{
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+    background-color: #e5e5e5;
+}
+.content{
+    margin-left:auto;
+    margin-right:auto;
+    height:1024px;
+    background-color:#FFF;
+    border: 1px solid #000;
+    border-bottom-left-radius: 10px 10px ;
+    border-bottom-right-radius: 10px 10px ;
+    border-top-left-radius: 10px 10px ;
+    border-top-right-radius: 10px 10px ;
+    margin: 0px auto;
+}
+.top{
+    float:left;
+    height: 93px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.logo {
+    background: url("http://localhost/library-database&website/files/library_logo.jpg") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+    float: left;
+    height: 76px;
+    width: 150px;
+}
+.wyszukiwarka{
+    float: right;
+    height: 26px;
+    margin-top: 5px;
+    margin-right: 17%;
+}
+#wyszukiwarka{
+    float: left;
+    height: 26px;
+    width: 30%;
+}
+.wysz{
+    border: 1px solid #C2C2C2;
+    border-radius: 4px;
+    width: 175px;
+}
+#sub{
+    background-color: #CCFF33;
+    border: medium none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 21px;  
+}
+#sub:hover{
+    background-color: #336655;
+    color:#fff;
+}
+.menu ul {
+    background-color: #99dd99;
+    float: left;
+    overflow: hidden;
+    padding-left: 52px;
+    width: 100%;
+}
+.top_left{
+    float: left;
+    padding-left: 22px;
+    width: 1100px;
+}
+.menu ul li {
+   // background: url("zakladka.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    margin-right: 0;
+    padding-left: 17px;
+}
+.menu ul, ul li {
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding-left: 52px;
+
+}
+
+.menu ul a:link, ul a:visited {
+   // background: url("zakladka2.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
+    color: #225522;
+    display: block;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 5px 15px 4px 6px;
+    text-decoration: none;
+}
+
+
+.menu ul a:hover {
+    background-color: #99CC33;
+    color: #FFFFFF;
+}
+.login{
+    width: 120%;
+    margin-left: 40%;
+}
+.inf{
+    font-style: italic;
+}
+
+
+
+

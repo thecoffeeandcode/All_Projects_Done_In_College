@@ -1,0 +1,245 @@
+body
+{
+	
+	background-image: url("https://d16pnh712pyiwa.cloudfront.net/wp-content/uploads/2019/07/support.png");
+	background-size: contain;
+/*	font-family: arial;
+*/	margin: 0;
+	padding: 0;
+}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+/* start: header styles */
+header {
+    background-color: black;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid blue;
+}
+
+.logo a img
+{
+	height: 60px;
+	width: 150px;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: yellow;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+/* end: header styles */
+
+label
+{
+	color: black;
+    font-family: 'Alatsi';font-size: 22px;
+}
+
+
+#title
+{
+	letter-spacing: 2px;
+    font-family: 'Secular One';font-size: 30px;
+	width: 800px;
+	background-color: rgb(0,0,0,0.6);
+	margin: auto;
+	color: #FFFFFF;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.container
+{
+	width: 800px;
+	background-color: rgba(0,0,0,0.4);
+	margin: auto;
+	color: rgba(230, 230, 230,0.7);
+}
+
+#error_message1
+{
+	color: red;
+    font-family: 'Headland One';font-size: 22px;
+	margin: auto;
+	width: 770px;
+	margin-bottom: 10px;
+	padding: 0px;
+	background: inherit;
+	text-align: center;
+	font-size: 16px;
+	transition: all 0.5s ease;
+}
+#error_message2
+{
+	color: red;
+    font-family: 'Headland One';font-size: 22px;
+	margin: auto;
+	width: 770px;
+	margin-bottom: 10px;
+	padding: 0px;
+	background: inherit;
+	text-align: center;
+	font-size: 16px;
+	transition: all 0.5s ease;
+}
+#error_message3
+{
+	color: red;
+    font-family: 'Headland One';font-size: 22px;
+	margin: auto;
+	width: 770px;
+	margin-bottom: 10px;
+	padding: 0px;
+	background: inherit;
+	text-align: center;
+	font-size: 16px;
+	transition: all 0.5s ease;
+}
+#error_message4
+{
+	color: red;
+    font-family: 'Headland One';font-size: 22px;
+	margin: auto;
+	width: 770px;
+	margin-bottom: 10px;
+	padding: 0px;
+	background: inherit;
+	text-align: center;
+	font-size: 16px;
+	transition: all 0.5s ease;
+}
+#error_message5
+{
+	color: red;
+    font-family: 'Headland One';font-size: 22px;
+	margin: auto;
+	width: 770px;
+	margin-bottom: 10px;
+	padding: 0px;
+	background: inherit;
+	text-align: center;
+	font-size: 16px;
+	transition: all 0.5s ease;
+}
+div .col
+{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+div .form-group
+{
+	padding-top: 7px;
+}
+.bottom
+{
+	padding-top: 15px;
+	margin-left: 100px;
+}
+.bottom-container
+{
+	font-family: 'Averia Serif Libre';font-size: 22px;
+	background: #34495e;
+	border-bottom: 2px solid white;
+	color:white;
+	margin-top: 30px;
+
+}
+.bottom-container p
+{
+    font-family: 'Averia Serif Libre';font-size: 16px;
+}
+h3
+{
+	border-bottom-style: solid; 
+	border-bottom-color: white;
+	border-bottom-width: 2px;
+}
+form
+{
+	padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .flex {
+        max-width: 540px;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 101%;
+        width: 100%;
+        background-color: #131313;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 15px 0 15px 20px;
+        border-bottom: 1px solid #FFB320;
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    .hamburger-menu {
+        display: block;
+        margin-top: 2px;
+    }
+
+    
+
+} /* end 767px */
+
+@media (max-width: 400px) {
+    .logo a img {
+        width: 150px;
+        margin: 2px;
+    }
+}
+/* end: media queries */
+

@@ -1,0 +1,173 @@
+.clear{
+    clear:both;
+}
+body{
+    width:100%;
+    height:auto;
+    background-color: #e5e5e5;
+}
+.content{
+    width:1280px;
+    height:1024px;
+    background-color:#FFF;
+    border: 1px solid #000;
+    border-bottom-left-radius: 10px 10px ;
+    border-bottom-right-radius: 10px 10px ;
+    border-top-left-radius: 10px 10px ;
+    border-top-right-radius: 10px 10px ;
+    margin: 0px auto;
+}
+.top{
+    float:left;
+    height: 93px;
+    width: 1280px;
+}
+.logo {
+    background: url("http://localhost/sklep/images/ds-firebird-logo-500.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+    float: left;
+    height: 75px;
+    width: 150px;
+}
+.wyszukiwarka{
+    float: left;
+    height: 26px;
+    margin-top: 5px;
+    width: 800px;
+}
+#wyszukiwarka{
+    float: left;
+    height: 26px;
+    width: 30%;
+}
+.wysz{
+    border: 1px solid #C2C2C2;
+    border-radius: 4px;
+    width: 175px;
+}
+#sub{
+    background-color: #CCFF33;
+    border: medium none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 21px;  
+}
+#sub:hover{
+    background-color: #336655;
+    color:#fff;
+}
+#koszyk{
+    background: url("http://localhost/sklep/images/koszyk.jpg") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+    float: left;
+    height: 20px;
+    margin-left: 0px;
+    width: 40px;
+
+}
+.menu ul {
+    background-color: #CCFF33;
+    float: left;
+    overflow: hidden;
+    padding-left: 52px;
+    width: 96%;
+}
+.top_left{
+    float: left;
+    padding-left: 22px;
+    width: 1100px;
+}
+.menu ul li {
+    background: url("zakladka.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: left;
+    margin-right: 0;
+    padding-left: 17px;
+}
+.menu ul, ul li {
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding-left: 52px;
+
+}
+
+.menu ul a:link, ul a:visited {
+    background: url("zakladka2.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
+    color: #336655;
+    display: block;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 5px 15px 4px 6px;
+    text-decoration: none;
+}
+
+
+.menu ul a:hover {
+    background-color: #99CC33;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+html{   
+}
+
+body{    
+}
+
+//class_top
+.top{   //background-image: -moz-linear-gradient(top, white 0%, #facd8a 100%);
+}
+
+.logo{
+}
+.name{  
+}
+.login{ 
+}
+
+//class_menu
+.menu{  
+}
+
+//class_slider
+.slider{
+}
+
+#slider{  
+}
+
+//class_content
+.content{ 
+}
+
+.left{  
+}
+.middle{   
+}
+.right{   
+}
+
+//class_sitemap
+.sitemap{
+}
+
+#sitemap{   
+}
+
+//class_fotter
+.fotter{   
+}
+
+#fotter{   
+}
+
+
+
+
+.login{
+}
+.submit{
+}
+

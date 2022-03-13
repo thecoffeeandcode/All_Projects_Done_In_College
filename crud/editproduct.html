@@ -1,0 +1,88 @@
+<?php
+// include database connection file
+include_once("config.php");
+
+// Check if form is submitted for user update, then redirect to homepage after update
+if(isset($_POST['update']))
+{
+	$productno = $_POST['id'];
+
+	$Price = $_POST['Price'];
+	$PCategory = $_POST['PCategory'];
+	$DOM = $_POST['DOM'];
+	$DOE = $_POST['DOE'];
+	$proname = $_POST['proname'];
+	$brand = $_POST['brand'];
+
+	// update user data
+	$result = mysqli_query($mysqli, "UPDATE product SET Price='$Price',PCategory='$PCategory',DOM='$DOM',DOE='$DOE',proname='$proname',brand='$brand' WHERE productno = $id ");
+	echo "Product added successfully. <a href='indexproduct.php'>View Product</a>";
+	// Redirect to homepage to display updated user in list
+	header("Location: indexproduct.php");
+}
+?>
+<?php
+// Display selected user data based on id
+// Getting id from url
+$id= $_GET['id'];
+
+// Fetech user data based on id
+$result = mysqli_query($mysqli, "SELECT * FROM product WHERE productno=$id");
+
+while($user_data = mysqli_fetch_array($result))
+{
+	$productno = $user_data['productno'];
+	$Price = $user_data['Price'];
+	$PCategory = $user_data['PCategory'];
+	$DOM = $user_data['DOM'];
+	$DOE = $user_data['DOE'];
+	$proname = $user_data['proname'];
+	$brand = $user_data['brand'];
+}
+?>
+
+<html>
+<head>
+	<title>Edit Product Data</title>
+</head>
+
+<body>
+	<a href="indexproduct.php">Home</a>
+	<br/><br/>
+
+	<form name="update_user" method="post" action="editproduct.php">
+		<table border="0">
+			<tr>
+				<td>Product ID</td>
+				<td><input type="text" name="productno" value=<?php echo $_GET['id'];?>></tr></td>
+			<tr>
+				<td>Price</td>
+				<td><input type="text" name="Price" value=<?php echo $Price;?>></td>
+			</tr>
+			<tr>
+				<td>PCategory</td>
+				<td><input type="text" name="PCategory" value=<?php echo $PCategory;?>></td>
+			</tr>
+			<tr>
+				<td>D.O.M.</td>
+				<td><input type="date" name="DOM" value=<?php echo $DOM;?>></td>
+			</tr>
+			<tr>
+				<td>D.O.E.</td>
+				<td><input type="date" name="DOE" value=<?php echo $DOE;?>></td>
+			</tr>
+			<tr>
+				<td>Product name</td>
+				<td><input type="text" name="proname" value=<?php echo $proname;?>></td>
+			</tr>
+			<tr>
+				<td>Brand</td>
+				<td><input type="text" name="brand" value=<?php echo $brand;?>></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="update" value="Update"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

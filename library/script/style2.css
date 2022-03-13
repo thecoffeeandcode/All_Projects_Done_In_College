@@ -1,0 +1,147 @@
+
+
+.clear
+{
+    clear:both;
+}
+
+body
+{
+    background-color: #dddddd;
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+}
+.content
+{
+    margin-left:auto;
+    margin-right:auto;
+    height:auto;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    margin: 0px auto;
+}
+.book
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color:aquamarine;
+    background-color: #cccccc;
+    height: 280px;
+    width: 200px;
+    float: left;
+    display: block;
+}
+.book_image
+{
+    background-color:#552222;
+    height: 150px;
+    width: 150px;
+    //margin-left: auto;
+    //margin-right: auto;
+}
+.book_image img
+{
+    margin: auto;   
+    height: 170px;
+    width: 200px;
+}
+.book_text
+{
+    //background-color:#225522;
+    width: 150px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book_amount
+{
+    //background-color:#222255;
+    //width: 150px;
+    //height: 20px;
+    //margin-left: auto;
+    //margin-right: auto;
+    margin-top: 75px;
+float: right;
+font-size: 15px;
+}
+
+
+.opis
+{
+ height: 500px;
+ width: 500px;   
+ background-color:#ffeeff; 
+ border-style: solid;
+ border-width: 2px;
+ border-color:#eeddee;
+ display:inline-block;
+}
+.opis_obraz
+{
+ height: 200px;
+ width: 200px;   
+ background-color:#ef6390;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.opis_nazwa
+{
+ height: 30px;
+ width: 160px;   
+ background-color:#2677be;
+ margin-top: 10px;
+ margin-left: 220px;
+ float: left;
+}
+.opis_cena
+{
+ height: 30px;
+ width: 100px;   
+ background-color:#338811;
+ margin-top: 10px;
+ margin-left: 390px;
+ float: left;
+}
+.opis_opis
+{  
+ background-color:#ddffee;
+}
+/*#login{
+   
+    float: left;
+    margin: 0 auto! important;
+    border: solid;
+    border-width: 20px;
+    background-color: blueviolet;
+    //width: 900px;
+    width: 120%;
+    margin-left: 200px;
+}*/
+
+.login{
+    width: 120%;
+    margin-right: 5%;
+}
+
+.wyszukiwarka{
+    float: right;
+    height: 26px;
+    margin-top: 5px;
+    margin-right: 8%;
+}
+.center_middle{
+    margin-left:auto;
+    margin-right:auto;
+}
+.take{
+    float: left;
+width: 1px;
+margin-top: 30px;
+}
+ 
+    

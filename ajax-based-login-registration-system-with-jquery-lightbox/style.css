@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    height: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("bgimage.jpg");
+    font-family: 'Roboto', sans-serif;
+}
+  
+  /* .demo-container {
+    /* The image used */
+  
+    /* Full height */
+  
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+.demo-container {
+    padding: 20px;
+    border-radius: 2px;
+    margin: 0 auto;
+    max-width: 500px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.login-registration-menu {
+    background: #f9f9f9;
+    border: #ececec 1px solid;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 3px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+  box-shadow: 5px 10px #888888;
+    
+}
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 98%;
+    border-radius: 2px;
+    padding: 10px;
+    border: #e0dfdf 1px solid;
+}
+
+.btn-submit {
+    padding: 10px 30px;
+    border: #d5d4d5 1px solid;
+    font-size: 0.9em;
+    width: 150px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    color: #808080;
+}
+
+.submit-button {
+    padding-bottom: 10px;
+}
+
+#login-div {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#register-div {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#btn-login {
+    border: #b5b0b0 1px solid;
+    border-radius: 3px;
+    font-size: 0.9em;
+    width: 150px;
+    height: 50px;
+    padding: 5px 30px;
+    
+}
+
+#btn-register {
+    background-color: #ffb162;
+    border: #e8aa6a 1px solid;
+    border-radius: 3px;
+    font-size: 0.9em;
+    width: 150px;
+    height: 50px;
+    padding: 5px 30px;
+    margin-left: 15px;
+    margin-bottom: 14px; 
+    
+}
+
+div.register-class {
+    overflow: hidden;
+}
+
+img#loaderId {
+    vertical-align: middle;
+    width: 45px;
+    height: 50px;
+}
+
+.btn-logout {
+    cursor: pointer;
+    border: #e2e2e2 1px solid;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.success-message {
+    margin-left: 1px;
+    color: #189a18;
+    font: 18px;
+    display: none;
+}
+
+.error-message {
+    color: #FF0000;
+    display: none;
+    margin-top: 15px;
+}
+
+.dashboard {
+    text-align: left;    background: #f9f9f9;
+    border: #ececec 1px solid;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.thank-you-registration {
+    display:none;   
+    background: #ace4c0;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 0.95em;
+    border-radius: 3px;
+    border: #a9d4b9 1px solid;
+}
